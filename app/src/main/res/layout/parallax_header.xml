@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/craftbeer"
+    android:src="@drawable/craftbeer"
+    android:fitsSystemWindows="true"
+    app:layout_collapseMode="parallax"
+    app:layout_collapseParallaxMultiplier="0.7">
+
+    <LinearLayout
+        android:layout_height="220dp"
+        android:layout_width="match_parent"
+        android:background="#30000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Já escolheu sua cerveja de hoje? Não?"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:text="Veja aqui as melhores cervejas de acordo com a avaliação dos usuários do beHoppy!"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

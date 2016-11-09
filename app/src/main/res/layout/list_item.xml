@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/beer_image"
+        android:layout_height="70dp"
+        android:layout_width="70dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:text="Westvleteren12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_brand"
+        android:layout_height="wrap_content"
+        android:text="Westvleteren12"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.9"
+        android:id="@+id/tv_average_rating"
+        android:background="@color/green"
+        android:layout_alignParentRight="true"
+        android:padding="8dp"
+        android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</LinearLayout>
